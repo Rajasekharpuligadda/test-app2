@@ -19,7 +19,7 @@ spec:
         image: imagerepo.vaw.ai/backstage/spring-boot-app4:latest 
         imagePullPolicy: Always
         ports:
-        - containerPort: 9090
+        - containerPort: 8085
         env:
         - name: SERVER_PORT
-          value: "9090"  # Change application port
+          value: "8085"  # Change application port
