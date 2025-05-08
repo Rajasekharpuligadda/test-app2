@@ -9,4 +9,4 @@ spec:
   ports:
     - protocol: TCP
       port: 8085
-      targetPort: 9090  # Map Kubernetes service to container's port 9090
+      targetPort: 8085  # Map Kubernetes service to container's port 9090
