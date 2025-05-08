@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: spring-boot-app4
+  name: spring-boot-app5
 spec:
   type: ClusterIP
   selector:
-    app: spring-boot-app4
+    app: spring-boot-app5
   ports:
     - protocol: TCP
       port: 80
