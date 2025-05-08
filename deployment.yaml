@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: spring-boot-app4
+  name: spring-boot-app5
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: spring-boot-app4
+      app: spring-boot-app5
   template:
     metadata:
       labels:
-        app: spring-boot-app4
+        app: spring-boot-app5
     spec:
       imagePullSecrets:
         - name: harbor-eks-cred 
       containers:
-      - name: spring-boot-app4
+      - name: spring-boot-app5
         image: imagerepo.vaw.ai/backstage/spring-boot-app4:latest 
         imagePullPolicy: Always
         ports:
